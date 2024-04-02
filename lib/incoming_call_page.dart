@@ -52,7 +52,9 @@ class _IncomingCallPageState extends State<IncomingCallPage> {
                       height: 30,
                     ),
                     GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pop(context);
+                        },
                         child: CircleAvatar(
                             radius: 35,
                             backgroundColor: Colors.red,
@@ -74,7 +76,9 @@ class _IncomingCallPageState extends State<IncomingCallPage> {
                       height: 30,
                     ),
                     GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pop(context);
+                        },
                         child: CircleAvatar(
                             radius: 35,
                             backgroundColor: Colors.green,
